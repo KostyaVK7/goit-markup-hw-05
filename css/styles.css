@@ -480,9 +480,6 @@ background-color: #404bbf;
     display: flex;
     gap: 24px;
 }
-.subscribe-input-i {
-    display: flex;
-}
 .subscribe-input-text {
     border: 1px solid #ffffff;
     border-radius: 4px;
