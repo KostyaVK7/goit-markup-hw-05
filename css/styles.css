@@ -463,15 +463,15 @@ background-color: #404bbf;
 .footer-item-link:focus {
     background-color:  #31d0aa;
 }
-/* FOOTER EMAIL */
-.ubscribe {
+/* FOOTER EMAIL IMPUT */
+.subscribe {
     justify-content: flex-end;
 }
 
 .subscribe-text {
     font-weight: 500; 
     font-size: 16px; 
-    line-height: 1.5; 
+    line-height: 24px; 
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
@@ -479,6 +479,9 @@ background-color: #404bbf;
 .subscribe-box {
     display: flex;
     gap: 24px;
+}
+.subscribe-imput-i {
+    display: flex;
 }
 .subscribe-imput-text {
     border: 1px solid #ffffff;
@@ -590,10 +593,13 @@ background-color: #404bbf;
 }
 /* FORM IMPUT */
 .modal-form {
-    margin-bottom: 8px;
     position: relative;
 }
-.form-text {
+.modal-field {
+    margin-bottom: 8px;
+    
+}
+.modal-label {
     display: block;
     font-size: 12px;
     line-height: 1.17;
@@ -601,7 +607,7 @@ background-color: #404bbf;
     color: #8e8f99;
     margin-bottom: 4px;
 }
-.from-input {
+.modal-field-icon {
     position: relative;
 }
 .modal-input {
@@ -666,7 +672,7 @@ background-color: #404bbf;
 	color: #8e8f99;
 }
 
-.privacy_policy_checkbox {
+.privacy-policy-checkbox {
 	width: 16px;
 	height: 16px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
@@ -684,12 +690,12 @@ background-color: #404bbf;
 	fill: #F4F4FD;
 }
 
-.privacy_policy_link {
+.privacy-policy-link {
 	text-decoration: underline;
 	color: #4D5AE5;
 }
 
-
+/* BOTTON MODAL */
 
 
 .modal-form-buttom {
