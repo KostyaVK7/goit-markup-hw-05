@@ -582,7 +582,7 @@ background-color: #404bbf;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ZG */
-.modal-text {
+.modal-text-p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -659,6 +659,9 @@ background-color: transparent;
 resize: none;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.from-comment:focus {
+    border-color: #4D5AE5;
+}
 /* CHECKBOX */
 .modal-privacy {
     margin-bottom: 24px;
@@ -690,10 +693,7 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cub
 .policy-icon {
 }
 .privacy-policy-link {
-    /* line-height: 16px; 
-line-height: 1.33333; */
 text-decoration: underline;
-/* text-decoration-skip-ink: none; */
 color: #4d5ae5;
 }
 .modal-form-buttom {
